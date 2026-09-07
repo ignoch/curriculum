@@ -16,7 +16,7 @@
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; display: contents; }
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
@@ -37,21 +37,21 @@
 
 <body>
     <div id="page-wrap">
-        <img src="images/nacho.png" alt="Photo of Cthulu" id="pic" />
+        <img src="./images/nacho.png" alt="me" id="pic" />
         <div id="contact-info" class="vcard">
             <!-- Microformats! -->
             <h1 class="fn">Ignacio Ochoa</h1>
             <p>
                 Email: <a class="email" href="mailto:greatoldone@lovecraft.com">ignoch@gmail.com</a><br />
                 LinkedIn: <a class="email" href="https://www.linkedin.com/in/ignoch/">https://www.linkedin.com/in/ignoch/</a><br />
-                Github: <a class="email" href="https://github.com/ignoch">https://github.com/ignoch</a>
+                GitHub: <a class="email" href="https://github.com/ignoch">https://github.com/ignoch</a>
             </p>
         </div>
 
         <div id="objective">
             <p>
-              The lasts of the Webmaster era with knowledge of backend, frontend, and DevOps capabilities.
-              I like to write clean, tested, and concise code, and try to do that on my daily basis
+              One of the last of the Webmaster era, with knowledge of backend, frontend, and DevOps.
+              I like to write clean, tested, and concise code, and try to do that on a daily basis.
             </p>
         </div>
         <div class="clear"></div>
@@ -60,9 +60,9 @@
             <dd class="clear"></dd>
             <dt>Education</dt>
             <dd>
-                <h2>Universidad de Guadalajara - Licenciatura en Informatica (Computer Science Bachelor)</h2>
-                <p><strong>Major:</strong> Software Engineer<br />
-                   <strong>Minor:</strong> Science and engineering</p>
+                <h2>Universidad de Guadalajara - Licenciatura en Informática (Bachelor's Degree in Computer Science)</h2>
+                <p><strong>Major:</strong> Software Engineering<br />
+                   <strong>Minor:</strong> Science and Engineering</p>
             </dd>
 
             <dd class="clear"></dd>
@@ -73,55 +73,55 @@
                 <p>Ruby, Rails, Javascript, Python, GoLang, React, PostgreSQL, Redis, RabbitMQ, Kafka, REST, SCIM, SAML, Git, Docker, Bash, Unix</p>
 
                 <h2>Soft Skills</h2>
-                <p>Integrity, Effective communication, Teamwork, Problem solving and Willingness to learn</p>
+                <p>Integrity, Effective communication, Teamwork, Problem solving, and Willingness to learn</p>
             </dd>
 
             <dd class="clear"></dd>
 
             <dt>Experience</dt>
             <dd>
-                <h2>Software Engineer <span>Acima - Salt Lake Utah Remote - Feb 2024 - Mar 2026</span></h2>
+                <h2>Software Engineer <span>Acima - Salt Lake City, UT, Remote - Feb 2024 - Mar 2026</span></h2>
                 <ul class="with-stack">
-                    <li>I was part of the Merchant Portal team, responsible for maintaining our Rails codebase using Actionable, Kafka, Sidekiq, OpenAPI, and in-house gems to enhance the experience of our retailers. I worked on many initiatives, including Message Pooling with Kafka, migrating Grape endpoints to Rest Rails, maintaining up-to-date versions and reworking some architectures established a while ago.</li>
+                    <li>Part of the Merchant Portal team, responsible for maintaining our Rails codebase using ActionCable, Kafka, Sidekiq, OpenAPI, and in-house gems to enhance the experience of our retailers. Worked on many initiatives, including Message Pooling with Kafka, migrating Grape endpoints to Rails REST controllers, keeping versions up to date, and reworking some long-established architectures.</li>
                     <li><b>Stack:</b> Ruby, Rails, PostgreSQL, Docker, Rspec, Kafka, Javascript, Hotwire, ViteJS, React</li>
                 </ul>
 
-                <h2>Software Engineer <span>Symplr - Houston Texas, Remote - Mar 2023 - Jan 2024</span></h2>
+                <h2>Software Engineer <span>Symplr - Houston, TX, Remote - Mar 2023 - Jan 2024</span></h2>
                 <ul class="with-stack">
-                  <li>I was in charge of modifying/optimizing the codebase on Ruby, upgrading and maintaining all the services related to the application. I was helping the team to understand and change the application.</li>
+                  <li>Modified and optimized the Ruby codebase, upgrading and maintaining all the services related to the application. Helped the team understand and change the application.</li>
                   <li><b>Stack:</b> Ruby, Rails, MySQL, Docker, Rspec, AngularJS, Typescript</li>
                 </ul>
 
-                <h2 class="break">Software Engineer <span>Synack - San Francisco CA - Mar 2021 - Mar 2023</span></h2>
+                <h2 class="break">Software Engineer <span>Synack - San Francisco, CA - Mar 2021 - Mar 2023</span></h2>
                 <ul class="with-stack">
-                    <li>I Write and maintain REST APIs using Rails for different services, communicating with broad non-rails services and keeping it clean and straightforward.</li>
-                    <li>I was in charge of writing a new feature called Credits Ledger. I was in the design, architecture, database design, and writing the implementation along with doing support to other developers as a tech lead.</li>
-                    <li>I wrote a Sendgrid python app to maintain the email templates using git and CI to avoid doing it manually.</li>
-                    <li>I was helping other developers to ramp up coding in the application and conduct major refactorings in some services, increasing the code coverage and tuning performance in complex SQL queries.</li>
+                    <li>Wrote and maintained REST APIs using Rails for different services, communicating with broad non-Rails services and keeping them clean and straightforward.</li>
+                    <li>Owned the design, architecture, database schema, and implementation of a new feature called Credits Ledger, while supporting other developers as a tech lead.</li>
+                    <li>Wrote a SendGrid Python app to maintain the email templates using Git and CI to avoid doing it manually.</li>
+                    <li>Helped other developers ramp up coding in the application and conducted major refactorings in some services, increasing the code coverage and tuning the performance of complex SQL queries.</li>
                     <li><b>Stack:</b> Ruby, Rails, PostgreSQL, Docker, Rspec, Javascript, Python, GoLang</li>
                 </ul>
 
                 <h2>Software Engineer <span>Michelada.io - Guadalajara, MX - Oct 2020 - Mar 2021</span></h2>
                 <ul class="with-stack">
-                    <li>Mainly working with several clients to support different Ruby/Rails architectural technologies and improving their code coverage, response times, cache management and queries performance issues along the way.</li>
+                    <li>Worked mainly with several clients to support different Ruby/Rails architectural technologies, improving their code coverage, response times, and cache management while fixing query performance issues along the way.</li>
                     <li><b>Stack:</b> Ruby, Rails, PostgreSQL, Docker, Rspec, Javascript</li>
                 </ul>
 
-                <h2>Software Engineer <span>OneLogin, Inc - Guadalajara, MX - Aug 2015 - Apr 2020</span></h2>
+                <h2>Software Engineer <span>OneLogin, Inc. - Guadalajara, MX - Aug 2015 - Apr 2020</span></h2>
                 <ul>
-                  <li>Integrating existing REST services from other IPs and several external services</li>
-                  <li>Supporting our SCIM structure to allow companies to be added into our app supporting catalog.</li>
-                  <li>Dockerizing some internal services.</li>
-                  <li>Applying in-house solutions to a better performance in authorizations and authentications</li>
-                  <li>Creating new Services from scratch, understanding the needs for our customers.</li>
-                  <li>Helping others to be successful in our team.</li>
+                  <li>Integrated existing REST services from other internal projects and several external services.</li>
+                  <li>Supported our SCIM structure to allow companies to be added to our app's supporting catalog.</li>
+                  <li>Dockerized some internal services.</li>
+                  <li>Applied in-house solutions for better performance in authorizations and authentications.</li>
+                  <li>Created new services from scratch, understanding the needs of our customers.</li>
+                  <li>Helped others to be successful in our team.</li>
                 </ul>
 
-                <h2>Ruby developer <span>SerpicoDev - Phoenix, AR - Mar 2014 - Aug 2015</span></h2>
+                <h2>Ruby Developer <span>SerpicoDev - Phoenix, AZ - Mar 2014 - Aug 2015</span></h2>
                 <ul>
-                  <li>I was in charge of create new features and resolve bugs along with the client SocialWhirled,
-                    in order to expand a legacy app created on Rails 3. I had experience implementing some services on the servers,
-                    and consume APIs for the platform when it was needed
+                  <li>Created new features and resolved bugs alongside the client SocialWhirled to expand a legacy
+                    Rails 3 app. Implemented some services on the servers and consumed APIs for the platform
+                    when needed.
                   </li>
                 </ul>
             </dd>
