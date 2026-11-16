@@ -28,9 +28,13 @@
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
         @media print{
-          @page { margin-top: 0; margin-bottom: 0;}
+          @page { margin: 36pt 18pt; }
+          #page-wrap { width: 760px; }
+          #objective { width: 440px; }
+          dd { width: 560px; }
           ul { page-break-inside: avoid }
-          dd > h2.break { page-break-before: always; margin-top: 50px; }
+          li { page-break-inside: avoid }
+          h2 { page-break-after: avoid }
         }
      </style>
 </head>
@@ -70,10 +74,30 @@
             <dt>Skills</dt>
             <dd>
                 <h2>Hard Skills</h2>
-                <p>Ruby, Rails, Javascript, Python, GoLang, React, PostgreSQL, Redis, RabbitMQ, Kafka, REST, SCIM, SAML, Git, Docker, Bash, Unix</p>
+                <p>Ruby, Rails, Javascript, Python, AI Agents, CrewAI, LLMs, Ollama, ImageMagick, GoLang, React, PostgreSQL, Redis, RabbitMQ, Kafka, REST, SCIM, SAML, Git, Docker, Bash, Unix</p>
 
                 <h2>Soft Skills</h2>
                 <p>Integrity, Effective communication, Teamwork, Problem solving, and Willingness to learn</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Projects</dt>
+            <dd>
+                <h2>CrewAI Multi-Agent Flows</h2>
+                <ul>
+                    <li>Built CrewAI crews that make content and code changes to live
+                      websites: a research-and-write crew that drafts Markdown
+                      content with its assets, and coder crews that plan and
+                      implement changes using whitelisted edit tools.</li>
+                    <li>Built crews for image editing that remove photo backgrounds
+                      with Python and ImageMagick.</li>
+                    <li>Kept LLM agents creative-only: deterministic Python handles
+                      git isolation, pre-flight aborts, and build/test gates, so
+                      each change lands on its own branch and merges only after
+                      review.</li>
+                    <li><b>Stack:</b> Python, CrewAI, Ollama, ImageMagick, Git</li>
+                </ul>
             </dd>
 
             <dd class="clear"></dd>
@@ -92,7 +116,7 @@
                   <li><b>Stack:</b> Ruby, Rails, MySQL, Docker, Rspec, AngularJS, Typescript</li>
                 </ul>
 
-                <h2 class="break">Software Engineer <span>Synack - San Francisco, CA - Mar 2021 - Mar 2023</span></h2>
+                <h2>Software Engineer <span>Synack - San Francisco, CA - Mar 2021 - Mar 2023</span></h2>
                 <ul class="with-stack">
                     <li>Wrote and maintained REST APIs using Rails for different services, communicating with broad non-Rails services and keeping them clean and straightforward.</li>
                     <li>Owned the design, architecture, database schema, and implementation of a new feature called Credits Ledger, while supporting other developers as a tech lead.</li>
